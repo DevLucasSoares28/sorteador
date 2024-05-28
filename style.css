@@ -67,3 +67,31 @@ button:active {
     opacity: 0.8;
 }
 
+@media (max-width: 450px) {
+    h2 {
+        color: black;
+    }
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 50vh;
+    }
+
+    div {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    input {
+        max-width: 50%;
+        max-height: 50%;
+        
+    }
+
+    img {
+        width: 50%;
+        height: 50%;
+    }
+}
